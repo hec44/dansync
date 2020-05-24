@@ -2,14 +2,15 @@
   "name": "dancsync",
   "version": "6.1.0",
   "description": "Behavioral experiments in a browser",
-  "main": "jspsych.js",
+  "main": "app.js",
   "directories": {
     "doc": "docs",
     "example": "examples",
     "test": "tests"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start":"node app.js"
   },
   "repository": {
     "type": "git",
