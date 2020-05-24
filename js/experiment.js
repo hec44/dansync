@@ -1,18 +1,3 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset='UTF-8'>
-        <title>*DANSYNC</title>
-        <script src="../jspsych.js"></script>
-        <script src="../plugins/jspsych-html-button-response.js"></script>
-        <script src="../plugins/jspsych-instructions.js"></script>
-        <script src="../plugins/jspsych-survey-text.js"></script>
-        <script src="../plugins/jspsych-survey-likert.js"></script>
-        <script src="../plugins/jspsych-video-button-response.js"></script>
-        <link href="../css/jspsych.css" rel="stylesheet" type="text/css"></link>
-    </head>
-    <body></body>
-    <script>
     //Welcome
     var welcome_block = {
         data: {
@@ -86,11 +71,11 @@
     response_ends_trial: true
   }
   var practice_stimuli = [
-      {sources:['../data/videos/07.mp4'],data:{scree_id:'07',correct_ans:'0'}},
-      {sources:['../data/videos/13.mp4'],data:{scree_id:'13',correct_ans:'0'}},
-      {sources:['../data/videos/26_half_lead.mp4'],data:{scree_id:'26_half_lead',correct_ans:'1'}}
+      {sources:['data/videos/07.mp4'],data:{scree_id:'07',correct_ans:'0'}},
+      {sources:['data/videos/13.mp4'],data:{scree_id:'13',correct_ans:'0'}},
+      {sources:['data/videos/26_half_lead.mp4'],data:{scree_id:'26_half_lead',correct_ans:'1'}}
   ]
-  var video = ['../data/videos/07.mp4','./data/videos/13.mp4','./data/videos/26_half_lead.mp4']
+  var video = ['data/videos/07.mp4','data/videos/13.mp4','data/videos/26_half_lead.mp4']
   var practice_procedure = {
       timeline:[trial],
       timeline_variables:practice_stimuli,
@@ -107,6 +92,7 @@
     timeline.push(survey_page1);
     timeline.push(survey_page2);
     timeline.push(practice_procedure);
+function startExperiment(){
     jsPsych.init({
         timeline: timeline,
         show_progress_bar: true,
@@ -115,7 +101,4 @@
         }
 
     })
-
-    
-    </script>
-</html>
+};
