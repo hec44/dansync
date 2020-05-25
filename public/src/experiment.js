@@ -28,7 +28,7 @@ const DATE = YYYY + MM + DD;
         "<p>You will then be asked whether the dance is <b> in sync</b> with the audio or not.</p>"+
         "<p>pay attention, you will only be able to watch <b>each video once</b></p>",
                 '<p>Before you do the experiment you will have the chance to <b>practice</b> with <b>2 videos</b></p>'+
-                '<p>so, no preasure</p>'+
+                '<p>so, no pressure</p>'+
                 '<p>Please be patient, the videos may take a bit of time to load</p>',
 ],
         show_clickable_nav: true
@@ -71,7 +71,7 @@ const DATE = YYYY + MM + DD;
     button_html: '<button class="jspsych-btn">%choice%!</button>',
     margin_vertical: '10px',
     margin_horizontal: '8px',
-    prompt: 'Is this video synchrnised?',
+    prompt: 'Is this video synchronized?',
     width: 600,
     //height: 600,
     autoplay: true,
