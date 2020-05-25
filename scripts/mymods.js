@@ -3,7 +3,7 @@ var Dropbox = require("dropbox").Dropbox;
 const fetch = require("node-fetch");
 
 const dbx = new Dropbox({
-    accessToken: 'D83e8jvcWkkAAAAAAAAFErc-mr863QgSt5a-wzAnyzFS_NKMGm1Yz2-nHjk0N_Ms',
+    accessToken: 'D83e8jvcWkkAAAAAAAAFGvWj4YoAiHKd5LUlNeAH91L-i_-tfpExyLfcMSeBBFFX',
     fetch
 });
 
