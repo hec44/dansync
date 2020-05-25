@@ -28,7 +28,8 @@ const DATE = YYYY + MM + DD;
         "<p>You will then be asked whether the dance is <b> in sync</b> with the audio or not.</p>"+
         "<p>pay attention, you will only be able to watch <b>each video once</b></p>",
                 '<p>Before you do the experiment you will have the chance to <b>practice</b> with <b>2 videos</b></p>'+
-                '<p>so, no preasure</p>',
+                '<p>so, no preasure</p>'+
+                '<p>Please be patient, the videos may take a bit of time to load</p>',
 ],
         show_clickable_nav: true
     };
@@ -54,8 +55,8 @@ const DATE = YYYY + MM + DD;
         {prompt: "what gender do you most identify as?", name: 'Gender', labels: ['male','female','non-binary'], required: true}, 
         {prompt: "How would you rank your dance experience?", name: 'Dancer', labels: ['minimal','moderate','experienced'], required: true},
         {prompt: "How would you rank your musical experience?", name:'Musician', labels: ['minimal','moderate','experienced'], required: true},
-        {prompt: "Are you familiar with Tiktok?", name:'TikTok', labels:['yes','no'], required: true},
-        {prompt: "Do you consent to using your <b>completly anonymised</b> data for our experiment?", name:'TikTok', labels:['yes'], required: true}
+        {prompt: "Are you familiar with Tiktok?", name:'TikTok', labels:['none','moderate','frequent'], required: true},
+        {prompt: "Do you consent to our using your <b>completely anonymised</b> data for our experiment?", name:'TikTok', labels:['yes'], required: true}
       ],
       randomize_question_oder: false
   };
