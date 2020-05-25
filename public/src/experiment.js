@@ -55,7 +55,7 @@ const DATE = YYYY + MM + DD;
         {prompt: "what gender do you most identify as?", name: 'Gender', labels: ['male','female','non-binary'], required: true}, 
         {prompt: "How would you rank your dance experience?", name: 'Dancer', labels: ['minimal','moderate','experienced'], required: true},
         {prompt: "How would you rank your musical experience?", name:'Musician', labels: ['minimal','moderate','experienced'], required: true},
-        {prompt: "Are you familiar with Tiktok?", name:'TikTok', labels:['none','moderate','frequent'], required: true},
+        {prompt: "How would you rank your experience with Tiktok?", name:'TikTok', labels:['none','moderate','frequent'], required: true},
         {prompt: "Do you consent to our using your <b>completely anonymised</b> data for our experiment?", name:'TikTok', labels:['yes'], required: true}
       ],
       randomize_question_oder: false
